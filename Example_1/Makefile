@@ -1,4 +1,4 @@
-# Простой make-file без переменных, для релиза и дебага
+# РџСЂРѕСЃС‚РѕР№ make-file Р±РµР· РїРµСЂРµРјРµРЅРЅС‹С…, РґР»СЏ СЂРµР»РёР·Р° Рё РґРµР±Р°РіР°
 
 .PHONY: all debug release clean
 
@@ -16,4 +16,4 @@ hello: hello.cpp
 
 clean:
 	rm -f hello hello-dbg
-# В clean добавлено удаление файла hello-dbg
+# Р’ clean РґРѕР±Р°РІР»РµРЅРѕ СѓРґР°Р»РµРЅРёРµ С„Р°Р№Р»Р° hello-dbg
